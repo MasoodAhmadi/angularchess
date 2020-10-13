@@ -1,0 +1,10 @@
+    <div class="board">
+     
+        <ng-container>
+            <div *ngFor="let i of sixtyFour">
+           
+              <app-board-square *ngIf="xy(i) as pos" [position]="pos">
+                </app-board-square>
+            </div>
+        </ng-container>
+    </div>
